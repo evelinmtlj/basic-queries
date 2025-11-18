@@ -2,10 +2,9 @@ use northwind;
 
 
 
-Select *
-from 
+Select 
+ProductID, ProductName, UnitPrice
+
+FROM products
 
 
-from film
-
-order by rating desc
